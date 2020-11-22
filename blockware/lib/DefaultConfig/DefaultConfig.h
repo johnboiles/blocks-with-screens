@@ -11,9 +11,9 @@
 // In short, find the PlatformIO SPI library and comment out the lines with `pinMode(MISO`.
 // This file is usually somewhere in `~/.platformio/packages`, often here:
 // ~/.platformio/packages/framework-arduinoespressif8266/libraries/SPI/SPI.cpp
-// #define DC_PIN 12 // D6
-// #define CS_PIN 16 // D0
-// #define RST_PIN 15 // D8
+#define DC_PIN 12 // D6
+#define CS_PIN 16 // D0
+#define RST_PIN 15 // D8
 
 // V2 OLED board pinout
 // #define DC_PIN 5 // D1
@@ -21,9 +21,9 @@
 // #define RST_PIN 15 // D8
 
 // V3 OLED board pinout
-#define DC_PIN 2 // D4
-#define CS_PIN 16  // D0
-#define RST_PIN 15 // D8
+// #define DC_PIN 2 // D4
+// #define CS_PIN 16  // D0
+// #define RST_PIN 15 // D8
 
 // Serial data rate (115200 bits per second)
 // https://www.arduino.cc/reference/en/language/functions/communication/serial/begin/115200
